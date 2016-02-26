@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CommonTheme">
+        <attr name="titlebarBackground" format="reference|color"/>
+        <attr name="titlebarTextSize" format="dimension"/>
+        <attr name="titlebarTextColor" format="reference|color"/>
+        <attr name="titlebarTextIsBold" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="NavView">
+        <attr name="navText" format="string"/>
+        <attr name="navTextColor" format="reference|color"/>
+        <attr name="navSrc" format="reference|color"/>
+    </declare-styleable>
+
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension"/>
+        <attr name="border_color" format="color"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/hhlistview_rlHeader"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/hhlistview_height"
+        android:padding="@dimen/hhlistview_padding">
+
+        <!--箭头-->
+        <ImageView
+            android:id="@+id/hhlistview_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/hhlistview_padding"
+            android:src="@drawable/refresh_arrow_top"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+
+            <!-- 提示 -->
+            <TextView
+                android:id="@+id/hhlistview_header_hint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/TxtDefaultStyle"
+                android:text="@string/hhlistview_header_hint_default"/>
+
+            <!-- 提示 -->
+            <TextView
+                android:id="@+id/hhlistview_header_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding_small"
+                style="@style/TxtDefaultStyle"
+                android:text="最近更新：11-6 10:38"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>
